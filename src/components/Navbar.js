@@ -29,7 +29,12 @@ const Navbar = () => {
             const { id, href, icon } = link;
             return (
               <li key={id}>
-                <a href={href} className="nav-icon">
+                <a
+                  href={href}
+                  className="nav-icon"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className={icon}></i>
                 </a>
               </li>
