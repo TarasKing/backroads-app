@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+for removig existing repo use this:
+for Mac: rm -rf .git
+next create an empty git file: git init
+next add all my project to the git file: git add .
+next git commit -m "my commit"
+
+and after all those commands, I can copy and paste 3 lines of code from github where i created an empty repo for my project.
